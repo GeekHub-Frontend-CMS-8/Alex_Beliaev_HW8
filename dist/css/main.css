@@ -1,4 +1,11 @@
-/*DEFAULT WHITE*/
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
 /*****************************BOLD****************************************/
 @font-face {
   font-family: "Brandon Grotesque Bold";
@@ -81,7 +88,14 @@
   font-family: "Cubano";
   src: url("../fonts/Cubano/cubano_regulart.ttf") format("truetype"); }
 
-/*DEFAULT WHITE*/
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
 header {
   position: fixed;
   width: 100%;
@@ -130,7 +144,14 @@ header {
   height: 60px;
   background: rgba(0, 0, 0, 0.8); }
 
-/*DEFAULT WHITE*/
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
 .hero {
   background: #464646 url("../img/hero/background.jpg") no-repeat center;
   background-size: cover; }
@@ -140,21 +161,21 @@ header {
     flex-direction: column;
     height: 100vh; }
   .hero h4 {
-    color: #d4d4d4;
+    color: #fff;
     font-family: "Brandon Grotesque Light", sans-serif;
     font-size: 32px;
     font-weight: 100;
     letter-spacing: -1px; }
   .hero h1 {
     margin: 40px 0 70px 0;
-    color: #d4d4d4;
+    color: #fff;
     font-family: "Brandon Grotesque Bold", sans-serif;
     font-size: 66px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: -1px; }
   .hero button {
-    color: #d4d4d4;
+    color: #fff;
     font-family: "Brandon Grotesque ", sans-serif;
     font-size: 23px;
     font-weight: 700;
@@ -171,9 +192,57 @@ header {
       transition: 0.3s;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
 
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
+.services {
+  padding: 100px 0;
+  background: #fff; }
+  .services .container {
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+  .services h2 {
+    color: #222222;
+    font-family: "Brandon Grotesque Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    order: 1; }
+    .services h2 span {
+      font-family: "Brandon Grotesque Regular", sans-serif; }
+  .services img {
+    order: 3; }
+  .services .text {
+    order: 2;
+    max-width: 555px;
+    color: #777777;
+    font-family: "Brandon Grotesque", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: end; }
+    .services .text p {
+      margin: 20px 20px 0 0; }
+
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
+.identify {
+  padding: 100px 0;
+  background-color: #fafafa; }
+
 .container {
   margin: 0 auto;
+  max-width: 950px;
   width: 100%;
   height: 100%;
-  max-width: 950px;
   display: flex; }
