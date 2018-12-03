@@ -1,0 +1,24 @@
+{
+  "name": "hw8",
+  "version": "1.0.0",
+  "description": "HW8 Geekhub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW8.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW8/issues"
+  },
+  "homepage": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW8#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "browser-sync": "^2.26.3"
+  }
+}

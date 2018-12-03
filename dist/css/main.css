@@ -1,0 +1,179 @@
+/*DEFAULT WHITE*/
+/*****************************BOLD****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/Brandon Grotesque/Brandon_bld.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Bold I";
+  src: url("../fonts/Brandon Grotesque/Brandon_bld_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*****************************BLACK****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Black";
+  src: url("../fonts/Brandon Grotesque/Brandon_blk.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Black I";
+  src: url("../fonts/Brandon Grotesque/Brandon_blk_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*****************************LIGHT*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Light";
+  src: url("../fonts/Brandon Grotesque/Brandon_light.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Light I";
+  src: url("../fonts/Brandon Grotesque/Brandon_light_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/****************************MEDIUM*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Medium";
+  src: url("../fonts/Brandon Grotesque/Brandon_med.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Medium I";
+  src: url("../fonts/Brandon Grotesque/Brandon_med_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/****************************REGULAR****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  src: url("../fonts/Brandon Grotesque/Brandon_reg.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Regular I";
+  src: url("../fonts/Brandon Grotesque/Brandon_reg_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/******************************THIN*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Thin";
+  src: url("../fonts/Brandon Grotesque/Brandon_thin.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Thin I";
+  src: url("../fonts/Brandon Grotesque/Brandon_thin_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Cubano";
+  src: url("../fonts/Cubano/cubano_regulart.ttf") format("truetype"); }
+
+/*DEFAULT WHITE*/
+header {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  transition: 0.3s; }
+  header .container {
+    justify-content: space-between;
+    align-items: center; }
+  header .logo {
+    font-size: 25px;
+    font-family: "Cubano", serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2.5px; }
+  header .nav {
+    display: inherit; }
+    header .nav li {
+      margin: 0 20px;
+      position: relative; }
+      header .nav li a {
+        color: #fff;
+        font-family: "Brandon Grotesque Regular", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 1;
+        display: inline-block; }
+        header .nav li a:after {
+          display: block;
+          content: "";
+          height: 2px;
+          width: 0;
+          background-color: #fff;
+          transition: width .3s ease-in-out; }
+        header .nav li a:hover:after, header .nav li a:focus:after {
+          width: 100%; }
+
+.sticky {
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8); }
+
+/*DEFAULT WHITE*/
+.hero {
+  background: #464646 url("../img/hero/background.jpg") no-repeat center;
+  background-size: cover; }
+  .hero .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; }
+  .hero h4 {
+    color: #d4d4d4;
+    font-family: "Brandon Grotesque Light", sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: -1px; }
+  .hero h1 {
+    margin: 40px 0 70px 0;
+    color: #d4d4d4;
+    font-family: "Brandon Grotesque Bold", sans-serif;
+    font-size: 66px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+  .hero button {
+    color: #d4d4d4;
+    font-family: "Brandon Grotesque ", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    border: #fff 1px solid;
+    border-radius: 2px;
+    padding: 20px 70px;
+    background: transparent;
+    transition: all 300ms ease;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2); }
+    .hero button:hover {
+      color: #000;
+      background: #d0ccd9;
+      transform: scale(1.2);
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 950px;
+  display: flex; }

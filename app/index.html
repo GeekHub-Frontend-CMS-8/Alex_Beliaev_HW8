@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--STYLES-->
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!--FONTS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>HomeWork 8</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-paper-plane"></i>
+                <span>Escape</span>
+            </a>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Clients</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <!--HERO-->
+    <section class="hero">
+        <div class="container">
+            <h4>Can you build the website of my dreams?</h4>
+            <h1>Yup, we can do that.</h1>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script>
+
+        // Управление гамбургером и меню
+        $('#hamburger').on('click', function () {
+            $(this).toggleClass('is-active');
+            $('header').toggleClass('active');
+        });
+
+        // управляет header на desktop
+        $(window).scroll(function() {
+            if(window.innerWidth >= 768){
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 2) {
+                    $("header").addClass("sticky");
+                } else {
+                    $("header").removeClass("sticky");
+                }
+            }
+        });
+    </script>
+</body>
+</html>

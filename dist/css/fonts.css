@@ -1,0 +1,81 @@
+/*****************************BOLD****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/Brandon Grotesque/Brandon_bld.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Bold I";
+  src: url("../fonts/Brandon Grotesque/Brandon_bld_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*****************************BLACK****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Black";
+  src: url("../fonts/Brandon Grotesque/Brandon_blk.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Black I";
+  src: url("../fonts/Brandon Grotesque/Brandon_blk_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*****************************LIGHT*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Light";
+  src: url("../fonts/Brandon Grotesque/Brandon_light.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Light I";
+  src: url("../fonts/Brandon Grotesque/Brandon_light_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/****************************MEDIUM*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Medium";
+  src: url("../fonts/Brandon Grotesque/Brandon_med.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Medium I";
+  src: url("../fonts/Brandon Grotesque/Brandon_med_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/****************************REGULAR****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  src: url("../fonts/Brandon Grotesque/Brandon_reg.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Regular I";
+  src: url("../fonts/Brandon Grotesque/Brandon_reg_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/******************************THIN*****************************************/
+@font-face {
+  font-family: "Brandon Grotesque Thin";
+  src: url("../fonts/Brandon Grotesque/Brandon_thin.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Thin I";
+  src: url("../fonts/Brandon Grotesque/Brandon_thin_it.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Cubano";
+  src: url("../fonts/Cubano/cubano_regulart.ttf") format("truetype"); }
