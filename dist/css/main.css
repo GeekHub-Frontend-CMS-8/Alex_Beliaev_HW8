@@ -280,8 +280,6 @@ header {
   .awesome_clients .container {
     justify-content: space-around;
     flex-wrap: wrap; }
-  .awesome_clients .small_text_title {
-    margin: 10px 0; }
   .awesome_clients .content p {
     max-width: 479px;
     padding-bottom: 15px; }
@@ -299,6 +297,38 @@ header {
     text-decoration: none; }
     .awesome_clients a:hover {
       color: #d70101; }
+
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
+.logos {
+  padding: 100px 0;
+  background: #fff; }
+  .logos .container {
+    justify-content: space-around;
+    flex-flow: row wrap; }
+  .logos img {
+    margin: 20px; }
+
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
+.amazing_team {
+  padding: 100px 0;
+  background: #000;
+  text-align: center; }
+  .amazing_team h2 {
+    color: #fff; }
 
 .container {
   margin: 0 auto;
@@ -322,3 +352,18 @@ header {
   font-weight: 400;
   line-height: 24px;
   align-self: end; }
+  .small_text_title {
+    margin: 10px 0; }
+
+.amazing_team_item p {
+  margin: 15px 0 10px 0;
+  color: #d4d4d4;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 18px;
+  font-weight: 700; }
+
+.amazing_team_item span {
+  color: #ebebeb;
+  font-family: "Brandon Grotesque Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
