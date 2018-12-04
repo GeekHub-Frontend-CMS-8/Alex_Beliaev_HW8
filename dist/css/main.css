@@ -265,6 +265,41 @@ header {
   .skills img {
     margin-bottom: 40px; }
 
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* PINK */
+/* PADDING SECTION */
+.awesome_clients {
+  padding: 100px 0;
+  background: #fafafa;
+  text-align: center; }
+  .awesome_clients .container {
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .awesome_clients .small_text_title {
+    margin: 10px 0; }
+  .awesome_clients .content p {
+    max-width: 479px;
+    padding-bottom: 15px; }
+  .awesome_clients .element_content {
+    padding: 40px 85px;
+    background: #fff;
+    align-self: center; }
+  .awesome_clients a {
+    color: #7690c5;
+    font-family: "Brandon Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    text-decoration: none; }
+    .awesome_clients a:hover {
+      color: #d70101; }
+
 .container {
   margin: 0 auto;
   max-width: 950px;
