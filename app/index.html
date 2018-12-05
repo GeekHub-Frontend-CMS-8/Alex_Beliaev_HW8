@@ -20,6 +20,12 @@
                 <i class="fas fa-paper-plane"></i>
                 <span>Escape</span>
             </a>
+
+            <input id="toggle" type="checkbox">
+            <label class="toggle-container" for="toggle">
+                <span class="button button-toggle"></span>
+            </label>
+
             <ul class="nav">
                 <li>
                     <a href="#">Home</a>
@@ -355,26 +361,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous">
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-
-            //ID блока с ссылками #prime_nav
-            $("#skills_anchor").on("click","a", function (event) {
-                //отменяем стандартную обработку нажатия по ссылке
-                event.preventDefault();
-
-                //забираем идентификатор бока с атрибута href
-                var id  = $(this).attr('href'),
-
-                    //узнаем высоту от начала страницы до блока на который ссылается якорь
-                    top = $(id).offset().top;
-
-                //анимируем переход на расстояние - top за 1500 мс
-                $('body,html').animate({scrollTop: top}, 1500);
-            });
-        });
     </script>
 
     <script>
